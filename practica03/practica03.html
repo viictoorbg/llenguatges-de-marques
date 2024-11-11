@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HOLA</title>
 </head>
 <body>
     <header>
@@ -45,58 +45,57 @@
             </div>
         </nav>
     </header>  
-    <section>
-        <h2>Formulari</h2>
-        <form>
+    <main>
+        <section>
+            <h2>Formulari</h2>
+            <form action="" method="get--nomes petició o post--envies i modifica">
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom">
+                </div>
+                <div>
+                    <label for="correu">Correu electrònic:</label>
+                    <input type="email" id="correu" name="correu">
+                </div>
+                <div>
+                    <label for="motiu">Motiu de la consulta:</label>
+                    <select id="motiu" name="motiu">
+                      <option value="consultar">Consulta</option>
+                      <option value="feedback">Feedback</option>
+                      <option value="altres">Altres</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="missatge">Missatge:</label>
+                    <textarea id="missatge" name="missatge" rows="4" cols="50"></textarea>
+                </div>
+              <div>
+                <button type="submit">Envia</button>
+              </div>
+            </form>
+        </section>
+        <aside>
+            <h3>Articles relacionats</h3>
+            <ul>
+              <li><a href="article1.html">Com gestionar l'estrés</a></li>
+              <li><a href="article2.html">Com aprofitar al màxim el temps</a></li>
+              <li><a href="article3.html">Teletreball desde casa</a></li>
+            </ul>
+        </aside>
+     </main>
+     <footer>
+     <nav>
+               <a href="inici.html">inici</a>
+               <a href="presentació.html">presentació</a>
+               <a href="practiques.html">practiques</a>
+               <a href="sobrenosaltres.html">sobre nosaltres</a> 
+               <a href="cv.html">cv</a>
+               <a href="contacte.html">contacte</a> 
+               <a href="mapa-web.html">mapa web</a> 
+     </nav>
             <div>
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom">
-            </div>
-            <div>
-                <label for="correu">Correu electrònic:</label>
-                <input type="email" id="correu" name="correu">
-            </div>
-            <div>
-                <label for="motiu">Motiu de la consulta:</label>
-                <select id="motiu" name="motiu">
-                  <option value="consultar">Consulta</option>
-                  <option value="feedback">Feedback</option>
-                  <option value="altres">Altres</option>
-                </select>
-            </div>
-            <div>
-                <label for="missatge">Missatge:</label>
-                <textarea id="missatge" name="missatge" rows="4" cols="50"></textarea>
-            </div>
-          <div>
-            <button type="submit">Envia</button>
-          </div>
-        </form>
-    </section>
-    <aside>
-        <h3>Articles relacionats</h3>
-        <ul>
-          <li><a href="article1.html">Com gestionar l'estrés</a></li>
-          <li><a href="article2.html">Com aprofitar al màxim el temps</a></li>
-          <li><a href="article3.html">Teletreball desde casa</a></li>
-        </ul>
-    </aside>
-    <footer>
-        <div>
-            <img src="img/adidas.png" alt="logo adidas" height="100">
-        </div>
-         <nav>
-                <a href="inici.html">inici</a>
-                <a href="presentació.html">presentació</a>
-                <a href="practiques.html">practiques</a>
-                <a href="sobrenosaltres.html">sobre nosaltres</a> 
-                <a href="cv.html">cv</a>
-                <a href="contacte.html">contacte</a> 
-                <a href="mapa-web.html">mapa web</a> 
-            </nav>
-        <div>
-            <p>© 2024 Victor Benjumea Gutierrez. Tots els drets reservats.</p>
-        </div>
+           <p>© 2024 Victor Benjumea Gutierrez. Tots els drets reservats.</p>
+       </div>
     </footer>
 </body>
 </html>
